@@ -18,7 +18,7 @@ int binarySearch(int[] a, int x) {
    return -1; // Error
 }
 
-=============
+// Recursive Binary Search
 
 int binarySearchRecursive(int[] a, int x, int low, int high) {
    if (low > high) return -1; // Error
